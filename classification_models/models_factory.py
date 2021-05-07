@@ -13,6 +13,7 @@ class ModelsFactory:
         'resnet18': [rn.ResNet18, rn.preprocess_input],
         'resnet34': [rn.ResNet34, rn.preprocess_input],
         'resnet50': [rn.ResNet50, rn.preprocess_input],
+#        'resnet50_1d': [rn.ResNet50, rn.preprocess_input],
         'resnet101': [rn.ResNet101, rn.preprocess_input],
         'resnet152': [rn.ResNet152, rn.preprocess_input],
 
@@ -37,6 +38,7 @@ class ModelsFactory:
 
         # VGG
         'vgg16': [ka.vgg16.VGG16, ka.vgg16.preprocess_input],
+        'vgg16_1d': [ka.vgg16_1d.VGG16, ka.vgg16_1d.preprocess_input],
         'vgg19': [ka.vgg19.VGG19, ka.vgg19.preprocess_input],
 
         # Densnet
