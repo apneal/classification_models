@@ -38,7 +38,7 @@ class ModelsFactory:
 
         # VGG
         'vgg16': [ka.vgg16.VGG16, ka.vgg16.preprocess_input],
-        'vgg16_1d': [ka.vgg16_1d.VGG16, ka.vgg16_1d.preprocess_input],
+        'vgg16_1d': [ka.vgg16_1d.VGG161D, ka.vgg16_1d.preprocess_input],
         'vgg19': [ka.vgg19.VGG19, ka.vgg19.preprocess_input],
 
         # Densnet
